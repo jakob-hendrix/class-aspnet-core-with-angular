@@ -18,6 +18,7 @@ namespace OpenEnrollmentPortal
             // ORDER MATTERS!
             app.UseDefaultFiles();
             app.UseStaticFiles();  // for the wwwroot folder
+            app.UseNodeModules();
         }
     }
 }
